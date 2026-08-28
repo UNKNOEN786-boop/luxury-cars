@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VELOX | Luxury Automotive</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="loader-logo">VELOX</div>
+    <div class="loader-text">LOADING EXPERIENCE</div>
+    <div class="loader-line">
+        <span></span>
+    </div>
+</div>
+
+
+<nav>
+
+    <a href="index.html" class="logo">
+        VELO<span>X</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#collection">COLLECTION</a>
+        <a href="#experience">EXPERIENCE</a>
+    </div>
+
+    <div class="nav-menu">
+        ☰
+    </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-glow"></div>
+    <div class="hero-grid"></div>
+
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            AUTOMOTIVE EXCELLENCE
+        </p>
+
+        <h1>
+            DRIVE<br>
+            <span>THE</span><br>
+            FUTURE
+        </h1>
+
+        <p class="hero-description">
+            Explore a collection of extraordinary machines
+            built around performance, design and technology.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a
+                href="#collection"
+                class="btn primary-btn"
+            >
+                EXPLORE COLLECTION
+            </a>
+
+            <a
+                href="detail.html"
+                class="btn"
+            >
+                FEATURED CAR
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- MAIN 3D CAR -->
+
+    <div class="hero-viewer">
+
+        <div id="hero3d"></div>
+
+        <div class="viewer-instruction">
+            DRAG TO ROTATE • SCROLL TO ZOOM
+        </div>
+
+    </div>
+
+
+    <div class="hero-info">
+
+        <p>FEATURED MODEL</p>
+
+        <h2>VELOX X1</h2>
+
+        <span>
+            V12 • 1001 HP
+        </span>
+
+        <strong>
+            ₹2.85 CRORE
+        </strong>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+        SCROLL TO EXPLORE ↓
+    </div>
+
+</section>
+
+
+
+<!-- COLLECTION -->
+
+<section
+    class="collection"
+    id="collection"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <p class="eyebrow">
+                THE COLLECTION
+            </p>
+
+            <h2>
+                ICONIC MACHINES
+            </h2>
+
+        </div>
+
+        <p>
+            Select a machine and experience it in
+            interactive 3D.
+        </p>
+
+    </div>
+
+
+    <div class="cars-grid">
+
+
+        <!-- CARD 1 -->
+
+        <article
+            class="car-card"
+            data-index="01"
+            data-color="0xb00000"
+        >
+
+            <span class="card-number">
+                01
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>VELOX X1</h3>
+
+                    <p>
+                        V12 • 1001 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- CARD 2 -->
+
+        <article
+            class="car-card"
+            data-index="02"
+            data-color="0xffffff"
+        >
+
+            <span class="card-number">
+                02
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>APEX GT</h3>
+
+                    <p>
+                        V8 • 720 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- CARD 3 -->
+
+        <article
+            class="car-card"
+            data-index="03"
+            data-color="0x173b73"
+        >
+
+            <span class="card-number">
+                03
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>NIGHTFALL</h3>
+
+                    <p>
+                        V12 • 850 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- CARD 4 -->
+
+        <article
+            class="car-card"
+            data-index="04"
+            data-color="0x111111"
+        >
+
+            <span class="card-number">
+                04
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>MONARCH</h3>
+
+                    <p>
+                        V8 • 650 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- CARD 5 -->
+
+        <article
+            class="car-card"
+            data-index="05"
+            data-color="0xb00000"
+        >
+
+            <span class="card-number">
+                05
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>PHANTOM R</h3>
+
+                    <p>
+                        V10 • 900 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- CARD 6 -->
+
+        <article
+            class="car-card"
+            data-index="06"
+            data-color="0xc0a040"
+        >
+
+            <span class="card-number">
+                06
+            </span>
+
+            <div class="card-3d"></div>
+
+            <div class="card-overlay">
+
+                <div>
+                    <h3>ECLIPSE</h3>
+
+                    <p>
+                        EV • 1100 HP
+                    </p>
+                </div>
+
+                <a href="detail.html">
+                    VIEW →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- EXPERIENCE -->
+
+<section
+    class="experience"
+    id="experience"
+>
+
+    <div class="experience-content">
+
+        <p class="eyebrow">
+            ENGINEERED DIFFERENT
+        </p>
+
+        <h2>
+            MORE THAN<br>
+            A MACHINE.
+        </h2>
+
+        <p>
+            Every curve has a purpose.
+            Every detail exists to create an
+            unforgettable automotive experience.
+        </p>
+
+
+        <div class="stats">
+
+            <div>
+                <strong>2.1s</strong>
+                <span>0–100 KM/H</span>
+            </div>
+
+            <div>
+                <strong>1001</strong>
+                <span>HORSEPOWER</span>
+            </div>
+
+            <div>
+                <strong>350+</strong>
+                <span>TOP SPEED</span>
+            </div>
+
+            <div>
+                <strong>V12</strong>
+                <span>ENGINE</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<footer>
+
+    <strong>
+        VELOX
+    </strong>
+
+    <span>
+        LUXURY AUTOMOTIVE EXPERIENCE © 2026
+    </span>
+
+</footer>
+
+
+<script type="module" src="main.js"></script>
+
+</body>
+</html>

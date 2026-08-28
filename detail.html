@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>VELOX X1 | Details</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+        }
+    }
+    </script>
+
+</head>
+
+<body class="detail-body">
+
+
+<nav>
+
+    <a href="index.html" class="logo">
+        VELO<span>X</span>
+    </a>
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            HOME
+        </a>
+
+        <a href="index.html#collection">
+            COLLECTION
+        </a>
+
+    </div>
+
+</nav>
+
+
+<main class="detail-page">
+
+
+    <div class="detail-viewer">
+
+        <div id="detail3d"></div>
+
+        <div class="viewer-help">
+            DRAG • ROTATE • ZOOM
+        </div>
+
+    </div>
+
+
+    <div class="detail-info">
+
+        <p class="eyebrow">
+            VELOX AUTOMOTIVE
+        </p>
+
+        <h1>
+            X1
+        </h1>
+
+        <p class="detail-subtitle">
+            HYPER GT
+        </p>
+
+        <p class="detail-description">
+
+            A fictional high-performance concept car created
+            for the VELOX collection. Designed around extreme
+            proportions, dramatic lighting and uncompromising
+            performance.
+
+        </p>
+
+
+        <div class="detail-price">
+
+            <span>STARTING FROM</span>
+
+            <strong>
+                ₹2.85 CRORE
+            </strong>
+
+        </div>
+
+
+        <div class="controls">
+
+            <button id="doorBtn">
+                OPEN DOORS
+            </button>
+
+            <button id="hoodBtn">
+                OPEN BONNET
+            </button>
+
+            <button id="engineBtn">
+                START ENGINE
+            </button>
+
+            <button id="rotateBtn">
+                AUTO ROTATE
+            </button>
+
+        </div>
+
+
+        <div class="colors">
+
+            <p>SELECT COLOR</p>
+
+            <button
+                class="color-btn white"
+                data-color="0xffffff">
+            </button>
+
+            <button
+                class="color-btn red"
+                data-color="0xb00000">
+            </button>
+
+            <button
+                class="color-btn blue"
+                data-color="0x173b73">
+            </button>
+
+            <button
+                class="color-btn black"
+                data-color="0x111111">
+            </button>
+
+            <button
+                class="color-btn gold"
+                data-color="0xb08d32">
+            </button>
+
+        </div>
+
+
+        <div class="specs">
+
+            <div>
+                <strong>1001</strong>
+                <span>HP</span>
+            </div>
+
+            <div>
+                <strong>2.1</strong>
+                <span>0–100 SEC</span>
+            </div>
+
+            <div>
+                <strong>350+</strong>
+                <span>KM/H</span>
+            </div>
+
+            <div>
+                <strong>V12</strong>
+                <span>ENGINE</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<audio
+    id="engineSound"
+    src="sounds/engine.mp3"
+    preload="auto">
+</audio>
+
+
+<script type="module" src="detail.js"></script>
+
+</body>
+
+</html>
